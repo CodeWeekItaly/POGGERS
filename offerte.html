@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>Prodotti | Agricommerce</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="./Agricommerce/logo.png" width=125px>
+            </div> 
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a> </li>
+                    <li><a href="offerte.html">Offerte</a> </li>
+                    <li><a href="">Esplora</a> </li>
+                    <li><a href="">Info</a> </li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <img src="./Agricommerce/carrello.png" width="30px" height="30px">
+            <img src="./Agricommerce/menu.png" class="menu-icon" onclick= "menutoggle()">
+         </div>
+    </div>
+
+    <div class="small-container">
+        <div class="row row-2">
+          <h2>Tutti i prodotti!</h2> 
+          <select>
+              <option>Filtro Default</option>
+              <option>Per prezzo</option>
+              <option>Per popolarità</option>
+              <option>Per valutazioni</option>
+              <option>Per sconto</option>
+          </select>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="./Agricommerce/Prodotto_1.jpeg">
+                <h4>Mele piemontesi</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="far fa-star" aria-hidden="true"></i>
+                </div>
+                <p>€6.90</p>
+            </div>
+            <div class="col-4">
+                <img src="./Agricommerce/Prodotto_2.jpeg">
+                <h4>Arance piemontesi</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="far fa-star" aria-hidden="true"></i>
+                </div>
+                <p>€10</p>
+            </div>
+            <div class="col-4">
+                <img src="./Agricommerce/Prodotto_3.jpeg">
+                <h4>Pere piemontesi</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="far fa-star" aria-hidden="true"></i>
+                </div>
+                <p>€6.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./Agricommerce/Prodotto_4.jpeg">
+                <h4>Fragole piemontesi</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="far fa-star" aria-hidden="true"></i>
+                </div>
+                <p>€10.00</p>
+            </div>
+        </div>
+
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#8594</span>
+
+        </div>
+    </div>
+
+
+<!---------- footer----------->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Scaricate la nostra app!</h3>
+                    <p>Scaricate la nostra app per dispositivi Apple e Android!</p>
+                    <div class="app-logo">
+                        <img src="./Agricommerce/play-store.png">
+                        <img src="./Agricommerce/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="./Agricommerce/logopiccolo.png">               
+                </div>
+                <div class="footer-col-3">
+                    <h3>Links utili</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Assistenza</li>
+                        <li>Politiche e condizioni</li>                      
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Seguici!</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                    </ul>
+                </div>
+            </div>
+            <hr color="#000">
+            <p class="copyright">Copyright 2021 - POGGERS</p>
+        </div>
+    </div>
+
+<!---Js Toggle menu-->
+
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight="0px";
+    function menutoggle(){
+        if(MenuItems.style.maxHeight=="0px")
+        {
+            MenuItems.style.maxHeight="200px"
+        }
+        else
+        {
+            MenuItems.style.maxHeight="0px"
+        }
+    }
+</script>
+
+</body>
+</html>
