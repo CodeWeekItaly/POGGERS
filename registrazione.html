@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width", initial-scale="1.0">
-    <title>Prodotti | Agricommerce</title>
+    <title>Registrazione | Agricommerce</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -31,73 +31,48 @@
 
     <div class="small-container">
         <div class="row row-2">
-          <h2>Tutti i prodotti!</h2> 
-          <select>
-              <option>Filtro Default</option>
-              <option>Per prezzo</option>
-              <option>Per popolarità</option>
-              <option>Per valutazioni</option>
-              <option>Per sconto</option>
-          </select>
-        </div>
-        <div class="row">
-            <div class="col-4">
-                <img src="./Agricommerce/Prodotto_1.jpeg">
-                <h4>Mele piemontesi</h4>
-                <div class="rating">
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="far fa-star" aria-hidden="true"></i>
-                </div>
-                <p>€6.90</p>
-            </div>
-            <div class="col-4">
-                <img src="./Agricommerce/Prodotto_2.jpeg">
-                <h4>Arance piemontesi</h4>
-                <div class="rating">
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="far fa-star" aria-hidden="true"></i>
-                </div>
-                <p>€10</p>
-            </div>
-            <div class="col-4">
-                <img src="./Agricommerce/Prodotto_3.jpeg">
-                <h4>Pere piemontesi</h4>
-                <div class="rating">
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="far fa-star" aria-hidden="true"></i>
-                </div>
-                <p>€6.00</p>
-            </div>
-            <div class="col-4">
-                <img src="./Agricommerce/Prodotto_4.jpeg">
-                <h4>Fragole piemontesi</h4>
-                <div class="rating">
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="far fa-star" aria-hidden="true"></i>
-                </div>
-                <p>€10.00</p>
-            </div>
-        </div>
-
-        <div class="page-btn">
-            <span>1</span>
-            <span>2</span>
-            <span>3</span>
-            <span>4</span>
-            <span>&#8594</span>
-
+            <form name="invio_dati" action="URL_personalizzata" method="post">
+                <p><input name="nome" placeholder="Nome"></p>
+                <p><input name="Email" placeholder="Email"></p>
+                <p><input name="Password" placeholder="Password"></p>
+                <p><input name="ConfermaPassword" placeholder="Conferma Password"></p>
+                <p>
+                    <select name="Sesso"> 
+                        <option value="1" selected>Maschio</option>
+                        <option value="2">Femmina</option>
+                        <option value="3">Altro</option>
+                        <option value="4">Preferisco non specificarlo</option>
+                
+                    </select>
+                    <select name="regione"> 
+                        <option value="1" selected>Abruzzo</option>
+                        <option value="2">Basilicata</option>
+                        <option value="2">Calabria</option>
+                        <option value="3">Campania</option>
+                        <option value="4">Emilia-Romagna</option>
+                        <option value="5">Friuli-Venezia Giulia</option>
+                        <option value="6">Lazio</option>
+                        <option value="7">Liguria</option>
+                        <option value="8">Lombardia</option>
+                        <option value="9">Marche</option>
+                        <option value="10">Molise</option>
+                        <option value="11">Piemonte</option>
+                        <option value="12">Puglia</option>
+                        <option value="13">Sardegna</option>
+                        <option value="14">Sicilia</option>
+                        <option value="15">Toscana</option>
+                        <option value="16">Trentino-Alto Adige</option>
+                        <option value="17">Umbria</option>
+                        <option value="18">Valle d'Aosta</option>
+                        <option value="19">Veneto</option>
+                    </select>
+                </p>
+                <p><input name="c2" type="checkbox" value="Venditore"> Venditore	
+                    <input name="c3" type="checkbox" value="Acquirente"> Acquirente </p>
+                <p>
+                    <input type="button" value="Registrati" onClick="alert('Grazie per esserti registrato!');" />
+                </p>
+                </form>
         </div>
     </div>
 
