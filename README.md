@@ -2,6 +2,7 @@
 ##  Tabella dei contenuti
 1. [Informazioni generali](#Informazioni-Generali)
 2. [Guida all'utilizzo](#Guida-Utilizzo)
+3. [Team di Sviluppo](#Team-Sviluppo)
 
 
 ## Team Logo
@@ -14,4 +15,8 @@ Il progetto è stato creato dal Team Poggers e consiste in una piattaforma EComm
 Per utilizzare l'applicazione sarà necessario scaricare la cartella ed aprirla tramite XCode, scegliere il dispositivo sul quale far girare l'app e cliccare sul bottone play in alto a sinistra.
 Per usufruire del sito basterà collegarsi al seguente [indirizzo](https://amarantofelicio.wixsite.com/my-site).
 ***
+### Team di Sviluppo
+
+***
 Url Sito: https://amarantofelicio.wixsite.com/my-site
+Drive Presentazione: https://drive.google.com/drive/folders/1HiWKEtXUKlDkR8bP4TCB66CKQPEXcrJS?usp=sharing
