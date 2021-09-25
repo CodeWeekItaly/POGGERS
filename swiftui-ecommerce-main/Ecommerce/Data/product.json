@@ -1,0 +1,74 @@
+[
+  {
+    "id" : 1,
+    "name" : "Mela Annurca",
+    "image" : "helmet-no6",
+    "price" : 5,
+    "description" : "La mela Annurca, proveniente dalle terre di Giugliano in Campania, ha segnato intere generazioni con il loro gusto prelibato.",
+    "color" : [
+      0.61,
+      0.8,
+      0.89
+    ]
+  },
+  {
+    "id" : 2,
+    "name" : "Pere modenesi",
+    "image" : "helmet-no2",
+    "price" : 3,
+    "description" : "La pere modenesi, proveniente dalle terre di Modena, ha segnato intere generazioni con il loro gusto prelibato.",
+    "color" : [
+      0.97,
+      0.87,
+      0.49
+    ]
+  },
+  {
+    "id" : 3,
+    "name" : "Lamponi piemontesi",
+    "image" : "helmet-no3",
+    "price" : 4,
+    "description" : "I lamponi piemontesi, proveniente dalle terre del Piemonte, hanno segnato intere generazioni con il loro gusto prelibato.",
+    "color" : [
+      0.53,
+      0.82,
+      0.63
+    ]
+  },
+  {
+    "id" : 4,
+    "name" : "Limoni amalfitani",
+    "image" : "helmet-no7",
+    "price" : 8,
+    "description" : "I limoni amalfitani, proveniente dalle terre di Amalfi, hanno segnato intere generazioni con il loro gusto prelibato.",
+    "color" : [
+      1,
+      0.56,
+      0.63
+    ]
+  },
+  {
+    "id" : 5,
+    "name" : "Anguria pugliese",
+    "image" : "helmet-no8",
+    "price" : 3,
+    "description" : "L'anguria, proveniente dalle terre della Puglia, hanno segnato intere generazioni con il loro gusto prelibato.",
+    "color" : [
+      0.74,
+      0.65,
+      0.5
+    ]
+  },
+  {
+    "id" : 7,
+    "name" : "Banane campane",
+    "image" : "helmet-no1",
+    "price" : 4,
+    "description" : "Le banane campane, proveniente dalle terre di Napoli, hanno segnato intere generazioni con il loro gusto prelibato.",
+    "color" : [
+      0.64,
+      0.51,
+      0.67
+    ]
+  },
+]

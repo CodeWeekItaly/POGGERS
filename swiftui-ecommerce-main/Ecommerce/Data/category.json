@@ -1,0 +1,22 @@
+[
+  {
+    "id" : 1,
+    "name" : "Frutta",
+    "image" : "icon-helmet"
+  },
+  {
+    "id" : 2,
+    "name" : "Verdura",
+    "image" : "icon-jersey"
+  },
+  {
+    "id" : 3,
+    "name" : "Offerte",
+    "image" : "icon-gloves"
+  },
+  {
+    "id" : 4,
+    "name" : "Info",
+    "image" : "icon-shoes"
+  },
+]
