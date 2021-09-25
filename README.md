@@ -2,7 +2,7 @@
 ##  Tabella dei contenuti
 1. [Informazioni generali](#Informazioni-Generali)
 2. [Guida all'utilizzo](#Guida-Utilizzo)
-3. [Team di Sviluppo](#Team-Sviluppo)
+3. [Team di Sviluppo](#Team-di-Sviluppo)
 
 
 ## Team Logo
@@ -11,7 +11,7 @@
 ### Informazioni Generali
 Il progetto è stato creato dal Team Poggers e consiste in una piattaforma ECommerce sia web che app che permette a produttori locali di vendere facilmente i loro prodotti.
 ***
-### Guida  All'Utilizzo
+### Guida Utilizzo
 Per utilizzare l'applicazione sarà necessario scaricare la cartella ed aprirla tramite XCode, scegliere il dispositivo sul quale far girare l'app e cliccare sul bottone play in alto a sinistra.
 Per usufruire del sito basterà collegarsi al seguente [indirizzo](https://amarantofelicio.wixsite.com/my-site).
 ***
