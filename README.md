@@ -23,4 +23,4 @@ Ecco il nostro Team al completo!
 ***
 Url Sito: https://amarantofelicio.wixsite.com/my-site
 <br>
-Drive Presentazione: https://drive.google.com/drive/folders/1HiWKEtXUKlDkR8bP4TCB66CKQPEXcrJS?usp=sharing
+Drive Presentazione: https://drive.google.com/drive/folders/1HiWKEtXUKlDkR8bP4TCB66CKQPEXcrJS
