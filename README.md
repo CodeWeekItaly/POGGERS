@@ -17,6 +17,10 @@ Per usufruire del sito basterà collegarsi al seguente [indirizzo](https://amara
 ***
 ### Team di Sviluppo
 
+Ecco il nostro Team al completo!
+
+![Team](https://user-images.githubusercontent.com/83781117/134764542-420440f9-3a61-4686-b0e5-cc222cf26c33.jpg)
 ***
 Url Sito: https://amarantofelicio.wixsite.com/my-site
+<br>
 Drive Presentazione: https://drive.google.com/drive/folders/1HiWKEtXUKlDkR8bP4TCB66CKQPEXcrJS?usp=sharing
